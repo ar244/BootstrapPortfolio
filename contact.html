@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Contact page using Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/contact.css"> 
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Anu Ramachandra</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+          <li><a href=portfolio.html>Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="main_container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>Contact Info</h1>
+          </div>
+
+          <div class="row">
+
+            <form>
+              Name:<br>
+              <input class="data" type="text" name="name" value="John Smith"><br>
+              <br>
+             Email:<br>
+              <input class="data" type="email" name="email" value="example@gmail.com"><br>
+             <br>Message:
+             <br>
+             <textarea id="mesg" cols="40" rows="5" name="message"></textarea><br>
+             <br>
+             <br>
+              <input id="submit" type="submit" value="Submit">
+           </form>
+            
+          </div>
+        </div>
+        
+
+      <div class="col-md-4">
+        <div class="panel panel-default" id="contactPanel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect with me</h3>
+          </div>
+          <div class="panel-body">
+          	<a href="https://github.com/ar244"> <img id="git" src="assets/images/mark-github-128.png" alt="logo"></a>
+			<a href="https://www.linkedin.com/in/anuramachandra/"> <img id="linkedin" src="assets/images/linkedin_square_color-128.png" alt="logo"></a>
+			<a href="http://stackoverflow.com/users/7777106/anuradha"> <img id="so" src="assets/images/stackoverflow.png" alt="logo"></a>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- footer -->
+  <div class="container" id="footer">
+    <p>&#169;Copyright 2017 Anuradha Ramachandra</p>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
